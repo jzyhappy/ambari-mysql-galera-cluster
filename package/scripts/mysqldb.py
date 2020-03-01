@@ -7,7 +7,7 @@ from GrantTables import *
 
 
 class MysqldbMaster(Script):
-    mysqldb_packages = ['mysql-wsrep-5.6','galera-3']
+    mysqldb_packages = ['mysql-wsrep-5.7','galera-3']
     db_pass_file = '/etc/db_info.cnf'
 
     def install(self, env):
